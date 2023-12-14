@@ -7,7 +7,7 @@ export const client = new ExtendedClient({
     username: process.env.TWITCH_USERNAME,
     password: process.env.TWITCH_OAUTH,
   },
-  channels: ["pgamingjr"], //LOAD IN FROM DB?
+  channels: ["pgamingjr"], // CHANNELS THE BOT SHOULD BE IN
 });
 
 client.start();
