@@ -13,5 +13,9 @@
   "scripts": {
     "build": "npx tsc",
     "dev": "npx rimraf build && tsc && node build/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PGamingHD/Twitch-bot-template"
   }
 }
